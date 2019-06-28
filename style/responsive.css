@@ -1,0 +1,69 @@
+@media only screen and (max-width: 767px){
+    header nav {
+        flex-direction: column;
+        justify-content: center;
+        width: 65%;
+        position: fixed;
+        left: 100%;
+        top: 0;
+        height: 100vh;
+        background-color: #bfbfbf;
+        transition: left .33s;
+    }
+    body.hide {
+        transition: left .85s;
+        left: -65%;
+        overflow: hidden;
+    }
+    header nav.show {
+        transition: left .85s;
+        left: 35%;
+    }
+    header nav p {
+        color: #ffffff;
+        padding-left: 3rem;
+        line-height: 4rem;
+        display: inline-block;
+    }
+    #menu-icon {
+        margin: 0;
+        position: relative;
+        z-index: 9999;
+    }
+    #menu-icon span {
+        display: inline-block;
+        width: 3rem;
+        height: 1rem;
+        position: relative;
+    }
+    #menu-icon span::before, #menu-icon span::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        right: 0;
+        transition: all .5s;
+    }
+    .changed #menu-icon span::before, .changed #menu-icon span::after {
+        background-color: #000000;
+    }
+    #menu-icon span::after {
+        top: 0;
+    }
+    #menu-icon span::before {
+        bottom: 0;
+        width: 90%;
+    }
+    body.hide #menu-icon span::after {
+        transform: rotate(30deg);
+        top: .9rem;
+    }
+    body.hide #menu-icon span::before {
+        transform: rotate(-30deg);
+        width: 100%;
+    }
+    #sec1 .dl-flex {
+        padding: 0 2rem;
+    }
+}
