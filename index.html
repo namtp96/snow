@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Work+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Snow</title>
+    <script src="https://kit.fontawesome.com/bb374afc97.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="fixed">
+            <div class="container">
+                <div class="logo"><img id="logo" src="images/logo-light.svg" width="85" alt="logo"></div>
+                <p id="menu-icon"><span></span></p>
+                <nav>
+                    <p><a href="javascript:void(0)" onclick="scrollToSlc('section')">about</a></p>
+                    <p><a href="javascript:void(0)" onclick="scrollToSlc('#sec6')">contact</a></p>
+                    <p><a href="javascript:void(0)" onclick="scrollToSlc('#sec2')">portpolio</a></p>
+                    <p><a href="blog.html">blog</a></p>
+                    <p><a href="wptheme.html">wordpress theme</a></p>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <p>NEW BRANDING AGENCY</p>
+            <h2>We are about to change the way</h2>
+            <span>you publish on the web</span>
+        </div>
+        <p id="btn-scroll"><img src="images/arrow.png" alt="arrow" onclick="aboutScroll()"></p>
+    </header>
+
+    <section>
+        <div id="lead">
+            <div class="container">
+                <div class="col-md-10 mg-auto">
+                    <h2>About Our Agency</h2>
+                    <p class="text">We are a new design studio based in USA. We have over 20 years of combined
+                        experience,
+                        and know a thing or two about designing websites and mobile apps. Clever use of technology and
+                        lean
+                        processes enable us to work faster and smarter.</p>
+                    <p class="pt"><img src="images/about-me-signature.png" alt="signature"></p>
+                </div>
+            </div>
+        </div>
+        <div id="sec1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-3 dl-flex">
+                        <i class="fas fa-suitcase"></i>
+                        <dl>
+                            <dt>548</dt>
+                            <dd>PROJECTS COMPLETED</dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6 col-xl-3 dl-flex">
+                        <i class="fas fa-clock"></i>
+                        <dl>
+                            <dt>1465</dt>
+                            <dd>WORKING HOURS</dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6 col-xl-3 dl-flex">
+                        <i class="fas fa-star"></i>
+                        <dl>
+                            <dt>612</dt>
+                            <dd>POSITIVE FEEDBACKS</dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6 col-xl-3 dl-flex">
+                        <i class="fas fa-heart"></i>
+                        <dl>
+                            <dt>735</dt>
+                            <dd>HAPPY CLIENTS</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sec2">
+            <div class="container">
+                <h2>Best Projects</h2>
+                <p class="text">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque
+                    faucibus. Vestibulum gravida volutpat ipsum non ultrices.</p>
+                <div class="box">
+                    <div class="row">
+                        <div class="col-xl-4 pt"><img src="images/portfolio-1-sm.jpg" alt=""></div>
+                        <div class="col-xl-4 pt"><img src="images/portfolio-2-sm.jpg" alt=""></div>
+                        <div class="col-xl-4 pt"><img src="images/portfolio-3-sm.jpg" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 pt"><img src="images/portfolio-4-sm.jpg" alt=""></div>
+                        <div class="col-xl-4 pt"><img src="images/portfolio-5-sm.jpg" alt=""></div>
+                        <div class="col-xl-4 pt"><img src="images/portfolio-6-sm.jpg" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 pt"><img src="images/portfolio-7-sm.jpg" alt=""></div>
+                        <div class="col-xl-4 pt"><img src="images/portfolio-8-sm.jpg" alt=""></div>
+                        <div class="col-xl-4 pt"><img src="images/portfolio-9-sm.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sec3">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="quot">&QUOT;Outstanding job and exceeded all expectations. It was a pleasure to
+                                work with them
+                                on a sizable first project and am looking forward to start the next one asap.&QUOT;</p>
+                            <p class="author">Yassuo</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="quot">&QUOT;Outstanding job and exceeded all expectations. It was a pleasure to
+                                work with them
+                                on a sizable first project and am looking forward to start the next one asap.&QUOT;</p>
+                            <p class="author">Yassuo</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="quot">&QUOT;Outstanding job and exceeded all expectations. It was a pleasure to
+                                work with them
+                                on a sizable first project and am looking forward to start the next one asap.&QUOT;</p>
+                            <p class="author">Yassuo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sec4">
+            <div class="container">
+                <div id="parnet-slick">
+                    <div><img src="images/partner-logo-1-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-2-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-3-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-4-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-5-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-6-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-7-dark.png" alt=""></div>
+                    <div><img src="images/partner-logo-8-dark.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="sec5">
+            <div class="container">
+                <div class="col-xl-10 mg-auto">
+                    <h2>Latest Blog</h2>
+                    <p class="text">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque
+                        faucibus. Vestibulum gravida volutpat ipsum non ultrices.</p>
+                </div>
+                <div id="post-slick">
+                    <div>
+                        <div class="pt"><img src="images/post-1-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>Why you should Always First</h3>
+                            <p class="date">August 14, 2016</p>
+                            <p class="text">Lights give have herb. First. Seed lesser his a fruit. Stars good divide
+                                fish appear don't, third deep.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-2-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>Something I need to tell you</h3>
+                            <p class="date">September 18, 2016</p>
+                            <p class="text">That female isn't midst divide kind upon seas lights greater green creature
+                                lights brought.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-3-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>The History of Nature</h3>
+                            <p class="date">August 27, 2016</p>
+                            <p class="text">Third is fly. From one under in itself two waters, all own. Said male shall
+                                greater own grass.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-4-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>Why you should Always First</h3>
+                            <p class="date">August 14, 2016</p>
+                            <p class="text">Lights give have herb. First. Seed lesser his a fruit. Stars good divide
+                                fish appear don't, third deep.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-5-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>Something I need to tell you</h3>
+                            <p class="date">September 18, 2016</p>
+                            <p class="text">That female isn't midst divide kind upon seas lights greater green creature
+                                lights brought.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-6-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>The History of Nature</h3>
+                            <p class="date">August 27, 2016</p>
+                            <p class="text">Third is fly. From one under in itself two waters, all own. Said male shall
+                                greater own grass.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-7-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>Why you should Always First</h3>
+                            <p class="date">August 14, 2016</p>
+                            <p class="text">Lights give have herb. First. Seed lesser his a fruit. Stars good divide
+                                fish appear don't, third deep.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-8-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>Something I need to tell you</h3>
+                            <p class="date">September 18, 2016</p>
+                            <p class="text">That female isn't midst divide kind upon seas lights greater green creature
+                                lights brought.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pt"><img src="images/post-9-mid.jpg" alt=""></div>
+                        <div class="txt">
+                            <h3>The History of Nature</h3>
+                            <p class="date">August 27, 2016</p>
+                            <p class="text">Third is fly. From one under in itself two waters, all own. Said male shall
+                                greater own grass.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sec6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <h2>Contact Info:</h2>
+                        <p class="text">Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.</p>
+                        <dl>
+                            <dt>Address: </dt>
+                            <dd>10111 Santa Monica Boulevard, LA</dd>
+                        </dl>
+                        <dl>
+                            <dt>Phone: </dt>
+                            <dd>+44 987 065 908</dd>
+                        </dl>
+                        <dl>
+                            <dt>Email: </dt>
+                            <dd>info@Example.com</dd>
+                        </dl>
+                        <dl>
+                            <dt>Fax: </dt>
+                            <dd>+44 987 065 909</dd>
+                        </dl>
+                    </div>
+                    <div class="col-xl-7">
+                        <form action="">
+                            <p><input type="text" placeholder="Your name"><input type="email" placeholder="Your email"></p>
+                            <input type="text" placeholder="Your title">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        2016-2017 © Design by Unvab. Code by namtp
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/myJs.js"></script>
+</body>
+
+</html>
